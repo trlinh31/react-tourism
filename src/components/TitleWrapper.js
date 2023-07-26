@@ -9,7 +9,9 @@ function TitleWrapper(props) {
           alt="/"
           className="absolute top-0 left-0 right-0 w-full h-full object-cover"
         />
-        <h1 className="absolute font-bold text-6xl text-white uppercase">{props.title}</h1>
+        <h1 className="absolute font-bold text-4xl md:text-6xl text-white uppercase">
+          {props.title}
+        </h1>
       </div>
     </div>
   );

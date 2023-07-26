@@ -12,7 +12,7 @@ function Destinations() {
   return (
     <div>
       <TitleWrapper path={Img} title="Destinations" />
-      <div className="container mx-auto py-20">
+      <div className="container mx-auto py-20 px-4">
         <div className="text-center">
           <h1 className="font-bold text-3xl md:text-5xl pb-4">Destinations Popular</h1>
           <p className="font-medium text-gray-300">

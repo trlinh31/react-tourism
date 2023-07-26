@@ -47,41 +47,21 @@ function Navbar() {
               : "fixed top-0 left-0 w-full h-full bg-gray-600 z-50  ease-in duration-500"
           }
         >
-          <a href="#" className="font-bold text-4xl text-primary-color p-3 mx-6 mt-8 block">
-            VietNam.
-          </a>
+          <h1 className="font-bold text-4xl text-primary-color p-3 mx-6 mt-8 block">
+            <Link to="/">VietNam.</Link>
+          </h1>
           <ul className="flex flex-col mt-12">
-            <li>
-              <a
-                href="#"
-                className="font-semibold text-2xl text-white p-4 mx-8 border-b border-b-gray-300 block"
-              >
-                Home
-              </a>
+            <li className="font-semibold text-2xl text-white p-4 mx-8 border-b border-b-gray-300 block">
+              <Link to="/">Home</Link>
             </li>
-            <li>
-              <a
-                href="#"
-                className="font-semibold text-2xl text-white p-4 mx-8 border-b border-b-gray-300 block"
-              >
-                Destinations
-              </a>
+            <li className="font-semibold text-2xl text-white p-4 mx-8 border-b border-b-gray-300 block">
+              <Link to="/destinations">Destinations</Link>
             </li>
-            <li>
-              <a
-                href="#"
-                className="font-semibold text-2xl text-white p-4 mx-8 border-b border-b-gray-300 block"
-              >
-                About
-              </a>
+            <li className="font-semibold text-2xl text-white p-4 mx-8 border-b border-b-gray-300 block">
+              <Link to="/about">About</Link>
             </li>
-            <li>
-              <a
-                href="#"
-                className="font-semibold text-2xl text-white p-4 mx-8 border-b border-b-gray-300 block"
-              >
-                Contact
-              </a>
+            <li className="font-semibold text-2xl text-white p-4 mx-8 border-b border-b-gray-300 block">
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
           <FaTimes

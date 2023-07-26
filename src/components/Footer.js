@@ -10,8 +10,8 @@ import {
 
 function Footer() {
   return (
-    <div className="bg-black-color w-full py-20 px-4">
-      <div className="container mx-auto text-white grid grid-cols-[40%_20%_20%_20%]">
+    <div className="bg-black-color w-full py-10 px-4">
+      <div className="container mx-auto text-white grid grid-cols-1 gap-y-12 lg:grid-cols-[40%_20%_20%_20%]">
         <div>
           <h1 className="font-bold text-3xl pb-4">About Us</h1>
           <p className="max-w-[440px]">
