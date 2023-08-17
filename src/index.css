@@ -66,8 +66,8 @@ body::-webkit-scrollbar-thumb {
   padding: 0 5px;
 }
 .slick-prev{
-  left: -14px
+  left: -14px;
 }
 .slick-next{
-  right: -14px
+  right: -14px;
 }
