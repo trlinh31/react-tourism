@@ -65,3 +65,9 @@ body::-webkit-scrollbar-thumb {
 .slick-slide > div {
   padding: 0 5px;
 }
+.slick-prev{
+  left: -14px
+}
+.slick-next{
+  right: -14px
+}
